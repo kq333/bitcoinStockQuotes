@@ -30,30 +30,16 @@ export default {
 <style scoped lang="scss">
 .container {
   max-width: 1000px;
+  width:100%;
   margin: auto;
 
   .input {
-    width: 950px;
+    max-width: 950px;
+     width:100%;
     height: 30px;
     border-radius: 4px;
     border-color: transparent;
     border: 1px solid #ffffff;
-
-    @media (width: 320px) {
-      width: 320px;
-    }
-
-    @media (width: 375px) {
-      width: 375px;
-    }
-
-    @media (width: 425px) {
-      width: 425px;
-    }
-
-    @media (width: 768px) {
-      width: 768px;
-    }
 
     &::placeholder {
       padding-left: 10px;

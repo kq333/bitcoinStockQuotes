@@ -116,6 +116,7 @@ export default {
 .home {
   min-height: 100vh;
   background: rgb(233, 231, 231);
+  padding:5px;
 
   .searchComponent {
     margin-top: 10px;
