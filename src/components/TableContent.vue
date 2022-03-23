@@ -80,7 +80,7 @@ table {
         }
       th {
         text-align: start;
-        border-bottom: 3px solid black;
+        border-bottom: 3px solid #000000;
         height: 40px;
       }
     }
@@ -96,24 +96,26 @@ table {
         text-align: start;
         border-bottom: 1px solid #8b8b8b;
         height: 40px;
+        color:#000000;
 
         @media (max-width:425px){
           font-size: 0.5em;
         }
 
         a:visited {
-          color: black;
+           color:#000000;
         }
 
         a:link {
           text-decoration: none;
+          color:#000000;
         }
 
         .currencyPrice {
-          color: green;
+          color: #008000;
 
           &--red {
-            color: red;
+            color: #ff0000;
           }
         }
 

@@ -29,12 +29,12 @@ export default {
 
 <style scoped lang="scss">
 .container {
-  max-width: 1000px;
+  max-width: 1440px;
   width:100%;
   margin: auto;
 
   .input {
-    max-width: 950px;
+    max-width:1440px;
      width:100%;
     height: 30px;
     border-radius: 4px;
